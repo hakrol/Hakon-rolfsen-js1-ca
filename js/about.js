@@ -11,8 +11,8 @@ function replaceWords() {
 
   const formattedHeading = headingText.replace(/The/g, "Replaced");
   const formattedParagraph = paragraphText
-    .replace(/The/g, "Replaced")
-    .replace(/the/g, "replaced");
+    .replace(/The/g + " ", "Replaced")
+    .replace(/the/g + " ", "replaced");
 
   heading.innerText = formattedHeading;
   paragraph.innerText = formattedParagraph;
