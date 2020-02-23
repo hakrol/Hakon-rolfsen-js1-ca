@@ -18,4 +18,4 @@ function replaceWords() {
   paragraph.innerText = formattedParagraph;
 }
 
-setTimeout(replaceWords, 1000);
+setTimeout(replaceWords, 4000);
